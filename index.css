@@ -231,34 +231,148 @@ em a{
   justify-content: center;
   align-items: center;
   padding: 5%;
+      margin-top: 20px;
+    margin-bottom: 50px;
   font-family: "Arial" or "Times New Roman" ;
 }
 .gallery{
   display: grid;
-  grid-template-columns: 2fr 1fr ;
-  grid-template-rows: auto;
-  gap: 10px;
-  width: 80%;
-  margin: auto;
-  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  padding: 10px;
+  margin: -60px;
 }
-.item img{
+
+.g-img-1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
+}
+
+.gallery-2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+}
+
+.top-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.gallery-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 80vh;
+}
+.footer-above{
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    height: 10vh;
 
 }
-.gallery .item:nth-child(1){
-  grid-row: 1/4;
+.footer-1{
+    font-size: 25px;
+    margin-top: 40px;
+    
+}
+.btn-fa{
+    width: 180px;
+    padding: 12px 60px;
+     border-radius: 20px;
+     border: none;
+     gap: -5px; 
+    background-color: #709d8d;
+    
+}
+a{
+  text-decoration: none;
+}
+.btn-fa a{
+    font-size: 15px;
+     color: white;
+}
+
+.footer-2{
+  margin-top: 40px;
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 100%;
+background-color:rgb(78, 94, 102);
+}
+ /* .social-icons{
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+ } */
+h1 {
+  color: #ffffff;
+}
+.footer-h4{
+display: flex;justify-content:center;
+align-items: center;
+}
+.social-icons img {
+  width: 40px;
+  margin: 10px;
+ border-radius: 15px;
+}
+.footer-logo{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
   
 }
-.gallery .item:nth-child(2){
-  grid-row: 1/3;
+ul{
+  list-style: none;
 }
-
-.balu{
+.footer-img{
+  padding: 1px;
+  border: 10px;
+  margin: 10px;
+}
+.footer-img{
+  border-radius: 100px;
+  padding-bottom: 5px;
+  border:gray solid 1px;
+}
+li:hover{
+  border-radius: 30px;
+ background-color:rgb(78, 94, 102);
+}
+.footer-h4{
+  margin-top: 20px;
+  color: white;
+}
+.footer-para{
+  color: white;
+  margin-bottom: 20px;
   display: flex;
-  gap: 10px;
+  align-items: center;
 }
-
+strong a  {
+  color:#00c65e;
+}
+span a{
+  color: white;
+}
