@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 1px;
+  color: #333;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: absolute;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+
+}
+.offer{
+    
+    color:black;
+    font-weight:bold ;
+}
+.offer:hover{
+    font-weight:bold red;
+    color: rgb(95, 94, 92);
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(95, 94, 92);
+  
+}
+
+.signup {
+  margin-left: 30px;
+  padding: 10px 60px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  font-weight: bold;
+   transition: background-color 0.5s ease;
+}
+
+.signup:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  margin-top:9% ;
+  flex-wrap: wrap;
+  font-family: 'Lora 400 normal';
+  overflow: hidden;
+}
+
+.rock-img{
+
+  height: auto;
+  border-radius: 4px;
+  width: 80%;
+ 
+  margin-left: 30px;
+}
+
+.content {
+  flex: 1;
+  min-width: 300px;
+}
+.middle-content{
+font-size: 24px;
+ line-height: 55px;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.highlight {
+  color: #4e8b75;
+  font-weight: bold;
+  margin: 20px 0;  
+}
+.Canoeing-container {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  gap: 90px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+  margin-top: 8%; 
+}
+.signup-1 {
+  background-color: rgb(121, 166, 144);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+     transition: background-color 0.5s ease;
+}
+.signup-1:hover {
+   background-color: rgb(135, 187, 162);
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 100%;
+background-color:rgb(78, 94, 102);
+}
+.footer-h4{
+display: flex;justify-content:center;
+align-items: center;
+}
+.social-icons img {
+  width: 40px;
+  margin: 10px;
+ border-radius: 15px;
+}
+.footer-logo{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+ul{
+  list-style: none;
+}
+.footer-img{
+  padding: 1px;
+  border: 10px;
+  margin: 10px;
+}
+.footer-img{
+  border-radius: 100px;
+  padding-bottom: 5px;
+  border:gray solid 1px;
+}
+.footer-h4{
+  margin-top: 20px;
+  color: white;
+}
+.footer-para{
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+strong a  {
+  color:#00c65e;
+  text-decoration: none;
+}
+
+strong:hover{
+    text-decoration: solid;
+}
+span a{
+  color: white;
+}

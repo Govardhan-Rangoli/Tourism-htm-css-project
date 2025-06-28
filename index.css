@@ -50,11 +50,12 @@ nav ul li a:hover {
 
 .signup {
   margin-left: 30px;
-  padding: 10px 25px;
+  padding: 10px 60px;
   border: 2px solid #000;
   background: transparent;
   border-radius: 30px;
   font-weight: bold;
+  transition: background-color 0.5s ease;
 }
 
 .signup:hover {
@@ -95,6 +96,7 @@ font-style: italic;
   border: none;
   border-radius: 30px;
   font-size: 15px;
+   transition: background-color 0.5s ease;
 }
 .main-button:hover {
   background-color: #ddd;
@@ -129,6 +131,7 @@ em a{
   font-style: italic;
   font-size: 18px;
   color: #46646c;
+  
 }
 .Rock-section {
   margin-top: -70px;
@@ -170,7 +173,8 @@ em a{
   color: white;
   border: none;
   border-radius: 40px;
-  font-size: 18px;  
+  font-size: 18px;
+   transition: background-color 0.5s ease;  
 }
 
 .Rock-content button:hover {
@@ -216,6 +220,7 @@ em a{
   background-color: #709d8d;
   color: white;
   border: none;
+   transition: background-color 0.5s ease;  
  }
 
 .btn:hover {
