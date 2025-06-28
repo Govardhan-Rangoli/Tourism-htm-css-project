@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 1px;
+  color: #333;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: absolute;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+
+}
+.offer{
+    
+    color:black;
+    font-weight:bold ;
+}
+.offer:hover{
+    font-weight:bold red;
+    color: rgb(95, 94, 92);
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(95, 94, 92);
+  
+}
+
+.signup {
+  margin-left: 30px;
+  padding: 10px 60px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  font-weight: bold;
+   transition: background-color 0.5s ease;
+}
+
+.signup:hover {
+  background-color: #000;
+  color: #fff;
+}
