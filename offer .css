@@ -7,6 +7,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   padding: 1px;
+  margin: auto;
   color: #333;
 }
 header {
@@ -15,7 +16,8 @@ header {
   align-items: center;
   padding: 20px 50px;
   position: absolute;
-  width: 100%;
+  width: 99%;
+ 
 }
 .logo {
   display: flex;
