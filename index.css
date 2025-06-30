@@ -220,7 +220,7 @@ em a{
   background-color: #709d8d;
   color: white;
   border: none;
-   transition: background-color 0.5s ease;  
+  transition: background-color 0.5s ease;
  }
 
 .btn:hover {
