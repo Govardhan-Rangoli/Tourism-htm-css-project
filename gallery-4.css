@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-content{
+    margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+
+.fast-img{
+ height: 600px; 
+ width: 700px;
+}

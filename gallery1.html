@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <title>GALLERY-1</title>
+</head>
+ <style>
+    /* Core CSS to make navigation work */
+    .arrow { display: none; }
+
+    #s1:checked ~ .slider-container .slides { transform: translateX(0%); }
+    #s2:checked ~ .slider-container .slides { transform: translateX(-100%); }
+    #s3:checked ~ .slider-container .slides { transform: translateX(-200%); }
+    #s4:checked ~ .slider-container .slides { transform: translateX(-300%); }
+    #s5:checked ~ .slider-container .slides { transform: translateX(-400%); }
+    #s6:checked ~ .slider-container .slides { transform: translateX(-500%); }
+
+    #s1:checked ~ .slider-container .arrow.s1,
+    #s2:checked ~ .slider-container .arrow.s2,
+    #s3:checked ~ .slider-container .arrow.s3,
+    #s4:checked ~ .slider-container .arrow.s4,
+    #s5:checked ~ .slider-container .arrow.s5,
+    #s6:checked ~ .slider-container .arrow.s6 {
+      display: block;
+    }
+
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 30px;
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    .arrow.left { left: 10px; }
+    .arrow.right { right: 10px; }
+  </style>
+<body>
+    
+  <!-- Slider Radio Buttons -->
+  <input type="radio" name="slider" id="s1" checked>
+  <input type="radio" name="slider" id="s2">
+  <input type="radio" name="slider" id="s3">
+  <input type="radio" name="slider" id="s4">
+  <input type="radio" name="slider" id="s5">
+  <input type="radio" name="slider" id="s6">
+
+  <!-- Slider Container -->
+  <div class="slider-container">
+
+    <div class="main-slider">
+      <div class="slides">
+        <div class="slide"><img src="sider.1.webp" alt="Image 1"></div>
+        <div class="slide"><img src="sider.2.webp" alt="Image 2"></div>
+        <div class="slide"><img src="sider.3.webp" alt="Image 3"></div>
+        <div class="slide"><img src="sider.4.webp" alt="Image 4"></div>
+        <div class="slide"><img src="sider.5.webp" alt="Image 5"></div>
+        <div class="slide"><img src="sider.6.webp" alt="Image 6"></div>
+      </div>
+
+      <!-- Arrows (Each shows only for corresponding radio) -->
+      <label for="s6" class="arrow left s1">&#10094;</label>
+      <label for="s2" class="arrow right s1">&#10095;</label>
+
+      <label for="s1" class="arrow left s2">&#10094;</label>
+      <label for="s3" class="arrow right s2">&#10095;</label>
+
+      <label for="s2" class="arrow left s3">&#10094;</label>
+      <label for="s4" class="arrow right s3">&#10095;</label>
+
+      <label for="s3" class="arrow left s4">&#10094;</label>
+      <label for="s5" class="arrow right s4">&#10095;</label>
+
+      <label for="s4" class="arrow left s5">&#10094;</label>
+      <label for="s6" class="arrow right s5">&#10095;</label>
+
+      <label for="s5" class="arrow left s6">&#10094;</label>
+      <label for="s1" class="arrow right s6">&#10095;</label>
+    </div>
+
+    <!-- Thumbnails -->
+    <div class="thumbnails">
+      <label for="s1" class="thumbnail"><img src="sider.1.webp" alt="Thumb 1"></label>
+      <label for="s2" class="thumbnail"><img src="sider.2.webp" alt="Thumb 2"></label>
+      <label for="s3" class="thumbnail"><img src="sider.3.webp" alt="Thumb 3"></label>
+      <label for="s4" class="thumbnail"><img src="sider.4.webp" alt="Thumb 4"></label>
+      <label for="s5" class="thumbnail"><img src="sider.5.webp" alt="Thumb 5"></label>
+      <label for="s6" class="thumbnail"><img src="sider.6.webp" alt="Thumb 6"></label>
+    </div>
+
+  </div>
+
+    
+</body>
+</html>

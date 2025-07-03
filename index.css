@@ -1,67 +1,69 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
-}
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px;
-  position: absolute;
-  width: 100%;
-  z-index: 10;
-}
-.logo {
-  display: flex;
-  align-items: center;
-}
-.logo img {
-  height: 50px;
-  margin-right: 10px;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
 
-nav {
-  display: flex;
-  align-items: center;
-}
+  nav {
+    display: flex;
+    align-items: center;
+  }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 25px;
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
 
-}
-.home{
-    font-weight:bold ;
-   
-}
-nav ul li a {
-  text-decoration: none;
-  color: rgb(95, 94, 92);
-  
-}
+  }
+  .home{
+      font-weight:bold ;
+    
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(95, 94, 92);
+      padding: 10px 10px;
+    
+  }
 
-nav ul li a:hover {
-  color:black;
-  background-color:  gainsboro;
-}
+  nav ul li a:hover {
+    color:black;
+  padding: 5px 10px 3px 10px;
+    background-color:  gainsboro;
+  }
 
-.signup {
-  margin-left: 30px;
-  padding: 10px 60px;
-  border: 2px solid #000;
-  background: transparent;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background-color 0.5s ease;
-}
+  .signup {
+    margin-left: 30px;
+    padding: 10px 60px;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+  }
 
-.signup:hover {
-  background-color: #000;
-  color: #fff;
-}
+  .signup:hover {
+    background-color: #000;
+    color: #fff;
+  }
 
 .hero {
   height: 100vh;
@@ -71,9 +73,6 @@ nav ul li a:hover {
   justify-content: center;
   text-align: center;
 }
-
-
-
 .hero-content h2 {
   font-size: 350%;
   font-weight: 700;
@@ -81,7 +80,7 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 .subheading{
-    color: white;
+  color: white;
 font-size: 30px;
 font-style: italic;
 }
@@ -99,7 +98,8 @@ font-style: italic;
    transition: background-color 0.5s ease;
 }
 .main-button:hover {
-  background-color: #ddd;
+  background-color:#000;
+  color: #fff;
 }
 .impression {
   text-align: center;
@@ -322,11 +322,6 @@ a{
   height: 100%;
 background-color:rgb(78, 94, 102);
 }
- /* .social-icons{
-  display: flex; 
-  flex-direction: row;
-  align-items: center;
- } */
 h1 {
   color: #ffffff;
 }

@@ -1,0 +1,35 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1200px;
+  width: 100%;
+   cursor: pointer;
+}
+
+.main-container img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+
+  transition: transform 0.5s ease;
+}
+
+.main-container img:hover {
+  transform: scale(.95); 
+}

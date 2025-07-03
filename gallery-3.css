@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 columns */
+  gap: 20px; /* space between items */
+  padding: 20px;
+}
+
+.gallery-item {
+ 
+  padding: 10px;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}

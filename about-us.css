@@ -30,7 +30,7 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 15px;
 
 }
 .home{
@@ -40,18 +40,20 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: rgb(95, 94, 92);
+    padding: 10px 10px;
   
 }
 
 nav ul li a:hover {
   color:black;
+ padding: 5px 10px 3px 10px;
   background-color:  gainsboro;
 }
 
 .signup {
   margin-left: 30px;
   padding: 10px 60px;
-  border: 2px solid #000;
+  border: 1px solid #000;
   background: transparent;
   border-radius: 30px;
   font-weight: bold;
@@ -62,112 +64,79 @@ nav ul li a:hover {
   background-color: #000;
   color: #fff;
 }
-
-.blog-main {
-  height: 150vh;
-  background: url(blog_main-1.webp) no-repeat center center/cover;
+  .main-background{
+      height: 100vh;
+  background: url(sider.3.webp) no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+   position: relative;
+  z-index: 1;
+  }
+.about-section {
+  max-width: 900px;
+  margin: 60px auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+
+  position: absolute;
+  z-index: 3;
+   left:200px;
+  top: 170px;
   
 }
-.blog-content h2 {
-  font-size: 350%;
-  font-weight: 700;
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-.blog-1{
-    margin-top: 100%;
-    color: white;
-font-size: 30px;
-font-style: italic;
-}
-.blog-2{
-    color: white;
-}
-.main-button {
-  padding: 14px 60px;
-  background-color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 30px;
-  font-size: 15px;
-   transition: background-color 0.5s ease;
-}
-.main-button:hover {
-    background-color: #000;
-  color: #ddd;
-}
-/* main compelet */
- .card-container {
-    /* margin-top: 30px; */
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-top: 40px;
-   cursor: pointer;
-}
 
-.card {
-  display: flex;
-  background-color: white;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.card-image {
-  flex: 0 0 35%;
-}
-
-.card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.card-content {
-  flex: 1;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.card-content h2 {
-  font-size: 24px;
+.about-label {
+  font-style: italic;
+  text-align: center;
+  color: #666;
   margin-bottom: 10px;
-  color: #222;
 }
 
-.card-content .date {
-  color: #6b7c93;
-  font-size: 16px;
-  margin-bottom: 15px;
+.title {
+    color: black;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
 }
 
-.card-content p {
-  font-size: 17px;
-  line-height: 1.5;
-  color: #444;
-  margin-bottom: 20px;
+.description {
+  margin-bottom: 30px;
+  text-align: justify;
 }
 
-.read-more {
-  color: #2d9d62;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 16px;
+.history-content p {
+  margin-bottom: 16px;
+  text-align: justify;
+     line-height: 1.7;
+
 }
 
-.read-more:hover {
-  text-decoration: underline;
+.history-block {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin: 30px 0;
 }
 
+.history-block.reverse {
+  flex-direction: row-reverse;
+}
+.nullam{
+color: rgb(94, 177, 94);
+}
+.history-block img {
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.history-block h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
 .footer-container{
   display: flex;
   justify-content: center;
@@ -175,8 +144,8 @@ font-style: italic;
   margin-top: 30px;
   height: 100%;
 background-color:rgb(78, 94, 102);
+    margin-top: 48%;
 }
-
 h1 {
   color: #ffffff;
 }
@@ -190,11 +159,13 @@ align-items: center;
  border-radius: 15px;
 }
 .footer-logo{
+ 
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  
 }
 ul{
   list-style: none;
