@@ -39,13 +39,12 @@ nav ul {
  gap: 25px;
 }
 .offer{
-    
     color:black;
     font-weight:bold ;
 }
 .offer:hover{
     font-weight:bold red;
-    color: rgb(95, 94, 92);
+    color: rgb(50, 44, 26);
 }
 nav ul li a {
   text-decoration: none;
@@ -138,17 +137,30 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
-  height: 100%;
 background-color:rgb(78, 94, 102);
+    margin-top: 40px;
+   
+}
+.footer-h4{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+ .social-icons img{  
+  width: 40px;
+  margin: 10px;
+ border-radius: 15px;
+}
+h1 {
+  color: #ffffff;
 }
 .footer-h4{
 display: flex;justify-content:center;
 align-items: center;
 }
 .social-icons img {
-  width: 40px;
-  margin: 10px;
+  width: 60px;
+  margin: 15px;
  border-radius: 15px;
 }
 .footer-logo{
@@ -158,20 +170,25 @@ align-items: center;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  
 }
 ul{
   list-style: none;
 }
-.footer-img{
-  padding: 1px;
-  border: 10px;
-  margin: 10px;
+.facebook-img{
+height: 85px;
+width: 88px;
 }
-.footer-img{
-  border-radius: 100px;
-  padding-bottom: 5px;
-  border:gray solid 1px;
+.youtube-img{
+  height: 73px;
+  width: 75px;
+}
+.instagram-img{
+  height: 95px;
+  width: 75px;
+  margin-left: 10px;
+}
+li:hover{
+  border-radius: 30px; 
 }
 .footer-h4{
   margin-top: 20px;
@@ -185,11 +202,6 @@ ul{
 }
 strong a  {
   color:#00c65e;
-  text-decoration: none;
-}
-
-strong:hover{
-    text-decoration: solid;
 }
 span a{
   color: white;

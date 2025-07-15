@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 .blog-main {
-  height: 150vh;
+  height: 800px;
   background: url(blog_main-1.webp) no-repeat center center/cover;
   display: flex;
   align-items: center;
@@ -172,11 +172,19 @@ font-style: italic;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
-  height: 100%;
 background-color:rgb(78, 94, 102);
+margin-top: 40px;
 }
-
+.footer-h4{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+ .social-icons img{  
+  width: 40px;
+  margin: 10px;
+ border-radius: 15px;
+}
 h1 {
   color: #ffffff;
 }
@@ -185,11 +193,12 @@ display: flex;justify-content:center;
 align-items: center;
 }
 .social-icons img {
-  width: 40px;
-  margin: 10px;
+  width: 60px;
+  margin: 15px;
  border-radius: 15px;
 }
 .footer-logo{
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,15 +208,18 @@ align-items: center;
 ul{
   list-style: none;
 }
-.footer-img{
-  padding: 1px;
-  border: 10px;
-  margin: 10px;
+.facebook-img{
+height: 85px;
+width: 88px;
 }
-.footer-img{
-  border-radius: 100px;
-  padding-bottom: 5px;
-  border:gray solid 1px;
+.youtube-img{
+  height: 73px;
+  width: 75px;
+}
+.instagram-img{
+  height: 95px;
+  width: 75px;
+  margin-left: 10px;
 }
 li:hover{
   border-radius: 30px;
